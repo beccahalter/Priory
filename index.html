@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+        <!--custom stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--external stylesheets-->
+        <link rel="stylesheet" href="lib/scrollmap.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+
+    </head>
+
+    <body>
+        <div class="content">
+             <!--title block, background image is title image-->
+            <div class="row" style="background-image:url(assets/title.png); background-size:contain;">
+                <div class="center title">
+                    <!--title text-->
+                    <h1>PRIORY OF THE ORANGE TREE MAP</h1>
+                    <!--subtitle or author-->
+                    <p class="author">Becca Halter</p>
+                </div>
+            </div>
+            <!--text content block-->
+            <div class="row">
+                <div class="center">
+                    <p>Welcome to the world mapped in the style of "The Prioriy of the Orange Tree" and "A Day of Fallen Night" by Samantha Shannon. This page takes you through different aspects of the style and how I brought it to our reality.</p>
+                </div>
+            </div>
+            <!--side by side text and image-->
+            <div class="row">
+                <div class="left">
+                    <img class="fit" src="assets/inspiration.png">
+                </div>
+                <div class="right">
+                    <p class="vert-center">While I was tempted to use some of the bold coloring on the covers of the books, the maps themselves are simple, but intricate black and white line work, which is the classic hand-drawn fantasy style.</p>
+                </div>
+            </div>
+            <!--background images with text scrolling over them (sidecar)-->
+            <div class="scroll-container">    
+                <!--background images-->
+                <div class="background-item">
+                    <img src="assets/background1.png" data-slide="1" class="fill">
+                    <img src="assets/background2.png" data-slide="2" class="fill hidden">
+                    <img src="assets/background3.png" data-slide="3" class="fill hidden">
+                    <img src="assets/background4.png" data-slide="4" class="fill hidden">
+                </div>
+                <!--foreground text blocks-->
+                <div class="foreground-item">
+                    <div class="row">
+                        <div class="center background-cream rounded">
+                            <p class="no-margin">I used an off white to mimic the slight coloring of a book page. Adding the shading to the outer coastline and a wave texture, highlights isolated landforms. You can see this clearly see the coastline shadow effect looking at the island of Japan.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-cream rounded">
+                            <p class="no-margin">Looking at the Mediterranen Sea you can see how major geographic features like, mountains and deserts are represented. These different habitats are often important to developing the scene of a novel and also frequently serve as plot points of a novel.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-cream rounded">
+                            <p class="no-margin">Here, along the western coast of Africa you can see the boundaries that would represent different political entities that underly the intrigue in most fantasy novels.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center background-cream rounded">
+                            <p class="no-margin">Looking at Mexico, note how a unique icon marks key settlements. Indentifying where these cities are is critical to understanding the setting of a fantasy novel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>content
+            <div class="row">
+                <div class="center-wide">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+                        <!--slideshow content goes here-->
+                        <div class="slide">
+                            <img src="assets/slide1.png">
+                            <p class="caption">The Priory style at a continental scale.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/slide2.png">
+                            <p class="caption"> An image of the central New York showing how parks are represented by a grove of trees and other points of interest by a small house. Other evidence of human geogrpahy is absent at this scale.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/slide3.png">
+                            <p class="caption">At this larger scale of Albany, NY, given the Priory map is only regional, I took the liberty of adding in roads as a key mode of travel. Characters often use routes like these in the course of the story.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/slide4.png">
+                            <p class="caption">Looking more closely at downtown Albany, I also added in pedestrain walkways using a dotted line style. Other features are limited to points of interest.</p>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev">&#10094;</a>
+                        <a class="next">&#10095;</a>
+
+                        <!-- The dots/circles -->
+                        <div class="slideshow-dots">
+                            <span class="dot" id="1"></span>
+                            <span class="dot" id="2"></span>
+                            <span class="dot" id="3"></span>
+                            <span class="dot" id="4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="center-wide">
+                    <iframe class="fit" src="https://api.mapbox.com/styles/v1/bhalter/cltztzonj020k01pbhpsw8ro8.html?title=view&access_token=pk.eyJ1IjoiYmhhbHRlciIsImEiOiJjbHR6dHcxZ2wwM3ZtMnBtenhhYXh2bTQwIn0.3OWgoOySHOJd94LnKxAaCg&zoomwheel=true&fresh=true#11.39/42.6613/-73.7651"></iframe>
+                </div>
+            </div>
+
+            <!--credits-->
+            <div class="row no-margin">
+                <div class="center">
+                    <div class="credits">
+                        <p><b>Credits:</b></p>
+                        <p>Original maps by Emily Faccini</p>
+                        <p>Basemap created with Mapbox Studio</p>
+                        <p>Data from openstreetmap</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--external scripts-->
+        <script type="text/javascript" src="lib/scrollmap.js"></script>
+    </body>
+</html>

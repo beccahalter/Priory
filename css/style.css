@@ -1,0 +1,22 @@
+body{  
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size: 20px;
+    .author{
+        color: rgb(4,10,110);
+        font-size: 50px;
+        background-color: rgba(247,235,225,0.5);
+        border-radius:2%
+    }
+    }
+
+    h1{
+            color: rgb(4,10,110);
+            background-color: rgba(247,235,225,0.5);
+            border-radius:2%;
+        }
+iframe{
+    height:600px;
+}
+
